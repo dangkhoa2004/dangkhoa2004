@@ -1,4 +1,4 @@
-<img src="title.gif" alt="👋 Hi there! I'm dnagkh0a" title="👋 Hi there! I'm dnagkh0a"/>
+<img src="./assets/title.gif" alt="👋 Hi there! I'm dnagkh0a" title="👋 Hi there! I'm dnagkh0a"/>
 <div align="justify">
 
 <a href="https://www.instagram.com/dangkhoa2004/">
