@@ -1,19 +1,19 @@
 <img src="./assets/title.gif" alt="👋 Hi there! I'm dnagkh0a" title="👋 Hi there! I'm dnagkh0a"/>
 <div align="justify">
 
-<a href="https://www.instagram.com/dangkhoa2004/">
+<a href="https://www.instagram.com/dangkh0a2004/">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.youtube.com/@dangkhoa2004">
+<a href="https://www.youtube.com/@04dkhoa04">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.twitter.com/dangkhoa2004/">
+<a href="https://x.com/dnagkh0a229">
 <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rezshakeri/">
+<a href="https://www.linkedin.com/in/khoa-%C4%91%C4%83ng-23b907338/">
 <img src="https://img.shields.io/badge/Linkedin-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
