@@ -45,6 +45,8 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
                 height="65" alt="GitHub" /> <br>GitHub </td>
         <td align="center" width="96"> <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65"
                 height="65" alt="Rest API" /> <br>Rest API </td>
+        <td align="center" width="96"> <img src="./assets/Python.png" width="65"
+                height="65" alt="Rest API" /> <br>Python</td>
     </tr>
     <tr>
         <td align="center" width="96"> <img src="./assets/Git.svg" width="48" height="48" alt="Git" />
@@ -57,6 +59,8 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
         </td>
         <td align="center" width="96"> <img src="./assets/Bootstrap.svg" width="48" height="48"
                 alt="Bootstrap" /> <br>Bootstrap </td>
+        <td align="center" width="96"> <img src="./assets/React.png" width="48" height="48"
+                alt="Bootstrap" /> <br>React</td>
     </tr>
     <tr>
         <td align="center" width="96"> <img src="./assets/Postman.svg" width="48" height="48"
@@ -65,6 +69,10 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
                 alt="Database" /> <br>Database </td>
         <td align="center" width="96"> <img src="./assets/Java-Light.svg" width="48"
                 height="48" alt="Database" /> <br>Java </td>
+        <td align="center" width="96"> <img src="./assets/PHP.png" width="80%"
+                height="48" alt="Database" /> <br>PHP </td>
+        <td align="center" width="96"> <img src="./assets/Tailwind.png" width="80%"
+                height="48" alt="Database" /> <br>Tailwind</td>
     </tr>
 </table>
 
@@ -86,7 +94,6 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
 
 </details>
 
-
 <details>
   <summary>Lượt xem hồ sơ 👁️</summary>
   <br/>
@@ -95,8 +102,6 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
 </details>
 
 ## Hoạt động GitHub gần đây ✅
-
-
 
 ## Cúp Hồ sơ GitHub🏆
 
