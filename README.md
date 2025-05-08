@@ -42,6 +42,8 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
                 height="65" alt="Rest API" /> <br>Rest API </td>
         <td align="center" width="96"> <img src="./assets/Python.png" width="65"
                 height="65" alt="Rest API" /> <br>Python</td>
+                <td align="center" width="96"> <img src="./assets/typescript.webp" width="65"
+                height="65" alt="Rest API" /> <br>Typescript</td>
     </tr>
     <tr>
         <td align="center" width="96"> <img src="./assets/Git.svg" width="48" height="48" alt="Git" />
@@ -96,7 +98,7 @@ Chào mừng đến với Trang GitHub của tôi. Tôi là Đăng Khoa (dnagkh0
 
 </details>
 
-## Hoạt động GitHub gần đây ✅
+<!-- ## Hoạt động GitHub gần đây ✅ -->
 
 ## Cúp Hồ sơ GitHub🏆
 
