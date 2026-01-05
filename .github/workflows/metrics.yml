@@ -1,0 +1,54 @@
+name: Metrics
+on:
+  # Chạy tự động vào 00:00 mỗi ngày
+  schedule: [{cron: "0 0 * * *"}]
+  # Cho phép chạy thủ công từ tab Actions
+  workflow_dispatch:
+  # Chạy khi push vào branch master/main
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Token bạn đã tạo ở Bước 1
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Cài đặt người dùng
+          user: dangkhoa2004
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Ho_Chi_Minh
+          
+          # Cấu hình giao diện (Gần giống Tokyo Night)
+          config_display: large
+          config_padding: 0, 10 + 5%
+
+          # Plugin: Ngôn ngữ (Thay thế cho Most Commit Language)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+          
+          # Plugin: Lines (Thống kê dòng code - rất ngầu)
+          plugin_lines: yes
+          
+          # Tùy chỉnh màu sắc để giống Tokyo Night (CSS)
+          # lowlighter/metrics không có sẵn theme "tokyonight" như vercel app,
+          # nhưng ta có thể dùng CSS để phối màu tương tự.
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #1a1b26;
+              --color-calendar-graph-day-L1-bg: #2ac3de;
+              --color-calendar-graph-day-L2-bg: #7aa2f7;
+              --color-calendar-graph-day-L3-bg: #bb9af7;
+              --color-calendar-graph-day-L4-bg: #f7768e;
+            }
+            h1, h2, h3 { color: #7aa2f7 !important; }
+            .field { color: #c0caf5 !important; }
+            b { color: #bb9af7 !important; }
