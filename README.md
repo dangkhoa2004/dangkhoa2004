@@ -58,14 +58,18 @@
 
 ## 🧩 Dự án tiêu biểu (Featured Projects)
 
-*(Gợi ý: Hãy thay thế nội dung dưới đây bằng project thật của bạn, dù nhỏ)*
+Dưới đây là các dự án cá nhân và thực tế mà tôi đã thực hiện, bao gồm Fullstack, Frontend và các công cụ tự động hóa.
 
-| Tên Dự án | Mô tả ngắn | Công nghệ | Link |
+| Dự án (Project) | Mô tả (Description) | Công nghệ (Tech Stack) | Demo/Repo |
 | :--- | :--- | :--- | :---: |
-| **Portfolio V1** | Trang cá nhân giới thiệu bản thân | HTML, CSS, JS | [Demo](#) |
-| **E-commerce UI** | Giao diện shop bán hàng đơn giản | ReactJS, Tailwind | [Repo](#) |
-| **Student Manager**| App quản lý sinh viên CRUD | Java/PHP, MySQL | [Repo](#) |
-
+| **🛍️ ecommerce-fullstack** | Hệ thống thương mại điện tử hoàn chỉnh với đầy đủ tính năng giỏ hàng, thanh toán và quản lý sản phẩm. | `Laravel` `ReactJS` `MySQL` | [Code](https://github.com/dangkhoa2004/ecommerce-fullstack) |
+| **📊 neo_dashboard** | Giao diện trang quản trị (Admin Dashboard) hiện đại, responsive, tối ưu trải nghiệm người dùng. | `HTML5` `CSS3` `JavaScript` | [Code](https://github.com/dangkhoa2004/neo_dashboard) |
+| **🤖 RoutineBot** | Bot tự động hóa các tác vụ trên website e-commerce, hỗ trợ xử lý quy trình lặp lại. | `Python` `Automation` | [Code](https://github.com/dangkhoa2004/RoutineBot) |
+| **🎬 frontend-cineboo** | Giao diện ứng dụng đặt vé xem phim với thiết kế hiện đại và hiệu ứng mượt mà. | `Frontend` `UI/UX` | [Code](https://github.com/dangkhoa2004/frontend-cineboo) |
+| **🐶 pet-app** | Ứng dụng quản lý và theo dõi thú cưng (tracking & care). | `Mobile/Web` `App` | [Code](https://github.com/dangkhoa2004/pet-app) |
+| **🛡️ badge-preview-service** | Công cụ tạo và xem trước các badge (nhãn) dùng cho GitHub profile hoặc tài liệu. | `NodeJS` `Service` | [Code](https://github.com/dangkhoa2004/badge-preview-service) |
+| **🏠 phamduong_project_2** | Landing page giới thiệu dự án bất động sản, tối ưu hiển thị thông tin. | `Web Layout` `Landing Page` | [Code](https://github.com/dangkhoa2004/phamduong_project_2) |
+| **🎒 VietNam_Trip_2025** | Website nhật ký du lịch, giới thiệu các địa điểm phượt và backpacking tại Việt Nam. | `HTML` `CSS` `Blog` | [Code](https://github.com/dangkhoa2004/VietNam_Trip_2025) |
 ---
 
 ## 📈 Thống kê GitHub (Analytics)
