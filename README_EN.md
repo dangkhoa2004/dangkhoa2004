@@ -41,7 +41,7 @@ I care about clear interfaces, maintainable application structure, and how the f
 Automatically collected from the source code in my public repositories.
 
 <!-- LANGUAGES:START -->
-`JavaScript` · `Vue` · `TypeScript` · `Java` · `HTML` · `CSS` · `PHP` · `Go` · `SQL` · `SCSS`
+`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `Go` · `PHP` · `Batchfile`
 <!-- LANGUAGES:END -->
 
 ## Projects
@@ -51,14 +51,14 @@ This list syncs from GitHub once a day. To refresh it sooner, run **Sync public 
 <!-- REPOSITORIES:START -->
 | Repository | Main language |
 |---|---|
-| [golang-project](https://github.com/dangkhoa2004/golang-project) | Go |
+| [pos_app](https://github.com/dangkhoa2004/pos_app) | Java |
 | [frontend-cineboo](https://github.com/dangkhoa2004/frontend-cineboo) | Vue |
-| [dangkh0a-profile](https://github.com/dangkhoa2004/dangkh0a-profile) | Vue |
 | [dangkhoa_project](https://github.com/dangkhoa2004/dangkhoa_project) | PHP |
 | [Road-to-Fullstack](https://github.com/dangkhoa2004/Road-to-Fullstack) | Vue |
 | [HTML](https://github.com/dangkhoa2004/HTML) | JavaScript |
 | [badge-preview-service](https://github.com/dangkhoa2004/badge-preview-service) | JavaScript |
-| [pos_app](https://github.com/dangkhoa2004/pos_app) | Java |
+| [golang-project](https://github.com/dangkhoa2004/golang-project) | Go |
+| [dangkh0a-profile](https://github.com/dangkhoa2004/dangkh0a-profile) | Vue |
 <!-- REPOSITORIES:END -->
 
 ## GitHub Analytics

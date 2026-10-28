@@ -41,7 +41,7 @@ Mình quan tâm đến giao diện dễ dùng, cấu trúc ứng dụng rõ ràn
 Danh sách được tổng hợp tự động từ mã nguồn của các repository công khai.
 
 <!-- LANGUAGES:START -->
-`JavaScript` · `Vue` · `TypeScript` · `Java` · `HTML` · `CSS` · `PHP` · `Go` · `SQL` · `SCSS`
+`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `Go` · `PHP` · `Batchfile`
 <!-- LANGUAGES:END -->
 
 ## Dự án
@@ -51,14 +51,14 @@ Danh sách được đồng bộ tự động mỗi ngày. Để cập nhật ng
 <!-- REPOSITORIES:START -->
 | Dự án | Mô tả | Ngôn ngữ chính |
 |---|---|---|
-| [golang-project](https://github.com/dangkhoa2004/golang-project) | Dự án thực hành Go. | Go |
-| [frontend-cineboo](https://github.com/dangkhoa2004/frontend-cineboo) | Giao diện quản trị cho hệ thống bán vé xem phim. | Vue |
-| [dangkh0a-profile](https://github.com/dangkhoa2004/dangkh0a-profile) | Hồ sơ cá nhân xây dựng bằng Vue. | Vue |
-| [dangkhoa_project](https://github.com/dangkhoa2004/dangkhoa_project) | Website portfolio và giới thiệu dịch vụ công nghệ. | PHP |
-| [Road-to-Fullstack](https://github.com/dangkhoa2004/Road-to-Fullstack) | Dự án học tập full-stack với backend Spring Boot và frontend web. | Vue |
-| [HTML](https://github.com/dangkhoa2004/HTML) | Bộ sưu tập dự án và ví dụ HTML, CSS, JavaScript. | JavaScript |
-| [badge-preview-service](https://github.com/dangkhoa2004/badge-preview-service) | Công cụ web chọn badge và xem mã HTML, CSS, JavaScript. | JavaScript |
-| [pos_app](https://github.com/dangkhoa2004/pos_app) | Ứng dụng Java Swing quản lý bán hàng. | Java |
+| [pos_app](https://github.com/dangkhoa2004/pos_app) | Một ứng dụng quản lý bán hàng toàn diện phát triển bằng Java Swing, thiết kế theo mô hình MVC + UI Layered, hỗ trợ đầy đủ các tính năng quả… | Java |
+| [frontend-cineboo](https://github.com/dangkhoa2004/frontend-cineboo) | Vue là một dự án quản trị mạnh mẽ, được xây dựng trên nền tảng Vue.js 3 và Vite. Với kiến trúc dễ tùy biến, giao diện người dùng tinh gọn v… | Vue |
+| [dangkhoa_project](https://github.com/dangkhoa2004/dangkhoa_project) | Website portfolio &amp; giới thiệu dịch vụ công nghệ của Cao Đăng Khoa – giao diện hiện đại, responsive, tối ưu UX/UI và thể hiện các dự án thự… | PHP |
+| [Road-to-Fullstack](https://github.com/dangkhoa2004/Road-to-Fullstack) | Road to Fullstack: Nơi tôi "vật lộn" với code, "vỡ lẽ" ra nhiều điều, và dần dần biến những ý tưởng điên rồ thành ứng dụng web thực tế. Hãy… | Vue |
+| [HTML](https://github.com/dangkhoa2004/HTML) | Kho lưu trữ các dự án HTML, CSS và JavaScript mà tôi đã thu thập được! Kho lưu trữ này bao gồm nhiều dự án thú vị và hữu ích giúp bạn cải t… | JavaScript |
+| [badge-preview-service](https://github.com/dangkhoa2004/badge-preview-service) | Ứng dụng web nhỏ gọn cho phép người dùng chọn badge và xem mã nguồn HTML, CSS, JS để tùy biến theo nhu cầu. Xây dựng với HTML, Tailwind CSS… | JavaScript |
+| [golang-project](https://github.com/dangkhoa2004/golang-project) | — | Go |
+| [dangkh0a-profile](https://github.com/dangkhoa2004/dangkh0a-profile) | — | Vue |
 <!-- REPOSITORIES:END -->
 
 ## Thống kê GitHub
