@@ -4,8 +4,12 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   # Cho phép chạy thủ công từ tab Actions
   workflow_dispatch:
-  # Chạy khi push vào branch master/main
+  # Cập nhật biểu đồ sau khi thay đổi cấu hình hoặc hồ sơ
   push: {branches: ["master", "main"]}
+
+concurrency:
+  group: profile-content-update
+  cancel-in-progress: false
 
 jobs:
   github-metrics:
@@ -38,17 +42,31 @@ jobs:
           # Plugin: Lines (Thống kê dòng code - rất ngầu)
           plugin_lines: yes
           
-          # Tùy chỉnh màu sắc để giống Tokyo Night (CSS)
-          # lowlighter/metrics không có sẵn theme "tokyonight" như vercel app,
-          # nhưng ta có thể dùng CSS để phối màu tương tự.
+          # Bảng màu đơn sắc, dùng các sắc độ xám cho biểu đồ và nhãn.
           extras_css: |
             :root {
-              --color-calendar-graph-day-bg: #1a1b26;
-              --color-calendar-graph-day-L1-bg: #2ac3de;
-              --color-calendar-graph-day-L2-bg: #7aa2f7;
-              --color-calendar-graph-day-L3-bg: #bb9af7;
-              --color-calendar-graph-day-L4-bg: #f7768e;
+              --color-calendar-graph-day-bg: #1f2329;
+              --color-calendar-graph-day-L1-bg: #3f444d;
+              --color-calendar-graph-day-L2-bg: #6b7280;
+              --color-calendar-graph-day-L3-bg: #9ca3af;
+              --color-calendar-graph-day-L4-bg: #e5e7eb;
             }
-            h1, h2, h3 { color: #7aa2f7 !important; }
-            .field { color: #c0caf5 !important; }
-            b { color: #bb9af7 !important; }
+            svg { color: #c9d1d9 !important; }
+            a { color: #d1d5db !important; }
+            h1, h2, h3 { color: #f3f4f6 !important; }
+            .field, footer { color: #c9d1d9 !important; }
+            .field svg { fill: #9ca3af !important; }
+            .field.language svg path { fill: #9ca3af !important; }
+            svg path, svg rect, svg circle, svg polygon { filter: grayscale(1) !important; }
+            .calendar .day { filter: grayscale(1) !important; }
+            svg.bar rect:nth-of-type(2) { fill: #374151 !important; }
+            svg.bar rect:nth-of-type(3) { fill: #4b5563 !important; }
+            svg.bar rect:nth-of-type(4) { fill: #6b7280 !important; }
+            svg.bar rect:nth-of-type(5) { fill: #9ca3af !important; }
+            svg.bar rect:nth-of-type(6) { fill: #d1d5db !important; }
+            svg.bar rect:nth-of-type(7) { fill: #4b5563 !important; }
+            svg.bar rect:nth-of-type(8) { fill: #6b7280 !important; }
+            svg.bar rect:nth-of-type(9) { fill: #9ca3af !important; }
+            svg.bar rect:nth-of-type(10) { fill: #d1d5db !important; }
+            .added { color: #d1d5db !important; }
+            b { color: #f3f4f6 !important; }
