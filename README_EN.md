@@ -64,7 +64,7 @@ This list syncs from GitHub once a day. To refresh it sooner, run **Sync public 
 ## GitHub Analytics
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="Cao Dang Khoa's GitHub activity charts" width="100%" />
+  <img src="./github-metrics-en.svg" alt="Cao Dang Khoa's GitHub activity charts" width="100%" />
 </div>
 
 ## Connect

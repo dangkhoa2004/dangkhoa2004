@@ -1,11 +1,18 @@
 name: Metrics
+
 on:
-  # Chạy tự động vào 00:00 mỗi ngày
-  schedule: [{cron: "0 0 * * *"}]
-  # Cho phép chạy thủ công từ tab Actions
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  # Cập nhật biểu đồ sau khi thay đổi cấu hình hoặc hồ sơ
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/render_metrics.py
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
 
 concurrency:
   group: profile-content-update
@@ -14,59 +21,24 @@ concurrency:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          # Token bạn đã tạo ở Bước 1
-          token: ${{ secrets.METRICS_TOKEN }}
+      - name: Check out profile repository
+        uses: actions/checkout@v4
 
-          # Cài đặt người dùng
-          user: dangkhoa2004
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Ho_Chi_Minh
-          
-          # Cấu hình giao diện (Gần giống Tokyo Night)
-          config_display: large
-          config_padding: 0, 10 + 5%
+      - name: Render public GitHub metrics
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/render_metrics.py
 
-          # Plugin: Ngôn ngữ (Thay thế cho Most Commit Language)
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 15
-          
-          # Plugin: Lines (Thống kê dòng code - rất ngầu)
-          plugin_lines: yes
-          
-          # Bảng màu đơn sắc, dùng các sắc độ xám cho biểu đồ và nhãn.
-          extras_css: |
-            :root {
-              --color-calendar-graph-day-bg: #1f2329;
-              --color-calendar-graph-day-L1-bg: #3f444d;
-              --color-calendar-graph-day-L2-bg: #6b7280;
-              --color-calendar-graph-day-L3-bg: #9ca3af;
-              --color-calendar-graph-day-L4-bg: #e5e7eb;
-            }
-            svg { color: #c9d1d9 !important; }
-            a { color: #d1d5db !important; }
-            h1, h2, h3 { color: #f3f4f6 !important; }
-            .field, footer { color: #c9d1d9 !important; }
-            .field svg { fill: #9ca3af !important; }
-            .field.language svg path { fill: #9ca3af !important; }
-            svg path, svg rect, svg circle, svg polygon { filter: grayscale(1) !important; }
-            .calendar .day { filter: grayscale(1) !important; }
-            svg.bar rect:nth-of-type(2) { fill: #374151 !important; }
-            svg.bar rect:nth-of-type(3) { fill: #4b5563 !important; }
-            svg.bar rect:nth-of-type(4) { fill: #6b7280 !important; }
-            svg.bar rect:nth-of-type(5) { fill: #9ca3af !important; }
-            svg.bar rect:nth-of-type(6) { fill: #d1d5db !important; }
-            svg.bar rect:nth-of-type(7) { fill: #4b5563 !important; }
-            svg.bar rect:nth-of-type(8) { fill: #6b7280 !important; }
-            svg.bar rect:nth-of-type(9) { fill: #9ca3af !important; }
-            svg.bar rect:nth-of-type(10) { fill: #d1d5db !important; }
-            .added { color: #d1d5db !important; }
-            b { color: #f3f4f6 !important; }
+      - name: Commit updated charts
+        run: |
+          if git diff --quiet -- github-metrics.svg github-metrics-en.svg; then
+            echo "GitHub charts are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg github-metrics-en.svg
+          git commit -m "docs: refresh bilingual GitHub metrics [skip ci]"
+          git push
