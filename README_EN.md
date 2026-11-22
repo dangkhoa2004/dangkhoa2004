@@ -41,7 +41,7 @@ I care about clear interfaces, maintainable application structure, and how the f
 Automatically collected from the source code in my public repositories.
 
 <!-- LANGUAGES:START -->
-`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `Go` · `PHP` · `Batchfile`
+`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `ShaderLab` · `Go` · `PHP` · `C#` · `Wolfram Language` · `HLSL` · `Batchfile`
 <!-- LANGUAGES:END -->
 
 ## Projects
@@ -51,6 +51,8 @@ This list syncs from GitHub once a day. To refresh it sooner, run **Sync public 
 <!-- REPOSITORIES:START -->
 | Repository | Main language |
 |---|---|
+| [SantaLunaBay-2026-11-21_11-11-00](https://github.com/dangkhoa2004/SantaLunaBay-2026-11-21_11-11-00) | C# |
+| [SantaLunaBay](https://github.com/dangkhoa2004/SantaLunaBay) | ShaderLab |
 | [pos_app](https://github.com/dangkhoa2004/pos_app) | Java |
 | [frontend-cineboo](https://github.com/dangkhoa2004/frontend-cineboo) | Vue |
 | [dangkhoa_project](https://github.com/dangkhoa2004/dangkhoa_project) | PHP |

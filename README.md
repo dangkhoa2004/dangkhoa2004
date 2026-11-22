@@ -41,7 +41,7 @@ Mình quan tâm đến giao diện dễ dùng, cấu trúc ứng dụng rõ ràn
 Danh sách được tổng hợp tự động từ mã nguồn của các repository công khai.
 
 <!-- LANGUAGES:START -->
-`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `Go` · `PHP` · `Batchfile`
+`Vue` · `Java` · `JavaScript` · `CSS` · `TypeScript` · `HTML` · `ShaderLab` · `Go` · `PHP` · `C#` · `Wolfram Language` · `HLSL` · `Batchfile`
 <!-- LANGUAGES:END -->
 
 ## Dự án
@@ -51,6 +51,8 @@ Danh sách được đồng bộ tự động mỗi ngày. Để cập nhật ng
 <!-- REPOSITORIES:START -->
 | Dự án | Mô tả | Ngôn ngữ chính |
 |---|---|---|
+| [SantaLunaBay-2026-11-21_11-11-00](https://github.com/dangkhoa2004/SantaLunaBay-2026-11-21_11-11-00) | — | C# |
+| [SantaLunaBay](https://github.com/dangkhoa2004/SantaLunaBay) | — | ShaderLab |
 | [pos_app](https://github.com/dangkhoa2004/pos_app) | Một ứng dụng quản lý bán hàng toàn diện phát triển bằng Java Swing, thiết kế theo mô hình MVC + UI Layered, hỗ trợ đầy đủ các tính năng quả… | Java |
 | [frontend-cineboo](https://github.com/dangkhoa2004/frontend-cineboo) | Vue là một dự án quản trị mạnh mẽ, được xây dựng trên nền tảng Vue.js 3 và Vite. Với kiến trúc dễ tùy biến, giao diện người dùng tinh gọn v… | Vue |
 | [dangkhoa_project](https://github.com/dangkhoa2004/dangkhoa_project) | Website portfolio &amp; giới thiệu dịch vụ công nghệ của Cao Đăng Khoa – giao diện hiện đại, responsive, tối ưu UX/UI và thể hiện các dự án thự… | PHP |
